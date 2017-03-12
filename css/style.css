@@ -4,12 +4,31 @@ html {
 
 #container {
     font-size: 30px;
+    width: 80vw;
+    background-color: yellowgreen;
+}
+
+#container > div {
+    background-color: red;
+}
+#pixels {
+    width: 100px;
 }
 
 #em {
-    width: 20em;
+    font-size: 2em;
+    width: 40vw;
 }
 
 #px {
-    width
+    font-size: 20px;   
+}
+#vw {
+    width: 20vw;
+}
+#vh {
+    width: 100vh;
+}
+#vmin {
+    width: 50vmin;
 }
